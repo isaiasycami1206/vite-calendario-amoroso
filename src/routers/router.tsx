@@ -4,7 +4,6 @@ import NotFoundPage from '../components/NotFoundPage'
 import Layout from '../pages/layout/Layout.tsx'
 
 import HomePage from '../pages/HomePage';
-// import DashboardPage from '../pages/DashboardPage';
 
 const router = createBrowserRouter(
     [
