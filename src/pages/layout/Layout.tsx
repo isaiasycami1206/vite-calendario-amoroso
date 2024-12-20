@@ -27,7 +27,7 @@ const Layout: React.FC = () => {
                 setIsTodayAndPast={setIsTodayAndPast}
                 isTodayAndPast={isTodayAndPast}
             />
-            <Row className="g-0" style={{ minHeight: '89vh' }}>
+            <Row className="g-0 mt-5" style={{ minHeight: '89vh' }}>
                 <Col>
                     <Container fluid className="p-4">
                         <Outlet context={{ viewMode, rowView, distribucion, darkMode, screenType, isTodayAndPast}} />

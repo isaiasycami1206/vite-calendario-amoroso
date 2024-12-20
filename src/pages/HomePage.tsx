@@ -23,12 +23,11 @@ const HomePage: React.FC = () => {
     const [calendariosPorAnio, setCalendariosPorAnio] = useState<{ [key: number]: CalendarioData[] }>({});
     const [mesActual, setMesActual] = useState(new Date().getMonth());
     const [anioActual, setAnioActual] = useState(new Date().getFullYear());
-    // const [distribucion, setDistribucion] = useState(true);
 
     useEffect(() => {
         const precargarAnios = () => {
             const nuevosDatos: { [key: number]: CalendarioData[] } = {};
-            for (let anio = 2015; anio <= 2035; anio++) {
+            for (let anio = 2015; anio < 2036; anio++) {
                 nuevosDatos[anio] = obtenerDatosAleatorios(12);
             }
             setCalendariosPorAnio(nuevosDatos);
@@ -51,7 +50,7 @@ const HomePage: React.FC = () => {
             } else if (nuevoMes > 11) {
                 nuevoMes = 0;
                 nuevoAnio += 1;
-                if (nuevoAnio <= 2030) {
+                if (nuevoAnio <= 2036) {
                     setAnioActual(nuevoAnio);
                 }
             }
@@ -63,16 +62,65 @@ const HomePage: React.FC = () => {
     const cambiarYear = (direccion: 'anterior' | 'siguiente') => {
         let nuevoAnio = anioActual;
 
-        if (nuevoAnio > 2015 && direccion == "anterior") {
+        if (nuevoAnio > 2015 && direccion === 'anterior') {
             nuevoAnio -= 1;
             setAnioActual(nuevoAnio);
-            return
+            return;
         }
-        if (nuevoAnio <= 2035 && direccion == "siguiente") {
+        if (nuevoAnio < 2036 && direccion === 'siguiente') {
             nuevoAnio += 1;
             setAnioActual(nuevoAnio);
         }
     };
+
+    const renderBotonesNavegacion = () => (
+        <div className="d-flex justify-content-between align-items-center mb-3">
+            {rowView ? (
+                <>
+                    <Button
+                        onClick={() => cambiarYear('anterior')}
+                        disabled={anioActual === 2015 && mesActual === 0}
+                        style={{ paddingInline: 5 }}
+                    >
+                        &lt;{screenType !== "mobile" ? "Año Anterior" : "Anterior "}
+                    </Button>
+
+                    <h3>{anioActual}</h3>
+
+                    <Button
+                        onClick={() => cambiarYear('siguiente')}
+                        disabled={anioActual === 2035 && mesActual === 11}
+                        style={{ paddingInline: 5 }}
+                    >
+                        {screenType !== "mobile" ? "Año Siguiente" : "Siguiente "}&gt;
+                    </Button>
+                </>
+            ) : (
+                <>
+                    <Button
+                        onClick={() => cambiarMes('anterior')}
+                        disabled={anioActual === 2015 && mesActual === 0}
+                        style={{ paddingInline: 5 }}
+                    >
+                        &lt;{screenType !== "mobile" ? "Mes Anterior" : "Anterior "}
+                    </Button>
+
+                    <div className="d-flex justify-content-center align-items-center" style={{ flexDirection: "column" }}>
+                        <h3 style={{ paddingRight: 5 }}>{meses[mesActual]}</h3>
+                        <h3>{anioActual}</h3>
+                    </div>
+
+                    <Button
+                        onClick={() => cambiarMes('siguiente')}
+                        disabled={anioActual === 2035 && mesActual === 11}
+                        style={{ paddingInline: 5 }}
+                    >
+                        {screenType !== "mobile" ? "Mes Siguiente" : "Siguiente "}&gt;
+                    </Button>
+                </>
+            )}
+        </div>
+    );
 
     const meses = [
         'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
@@ -88,61 +136,9 @@ const HomePage: React.FC = () => {
     const datosCalendario = calendariosPorAnio[anioActual] || [];
 
     return (
-        <Card className={"pt-4 pb-4 shadow border-0 "} >
+        <Card className={"pt-4 pb-4 shadow border-0 mt-3"}>
             <Card.Body>
-                <div className="d-flex justify-content-between align-items-center mb-3">
-
-                    {
-                        rowView
-                            ?
-                            <>
-                                <Button
-                                    onClick={() => cambiarYear('anterior')}
-                                    disabled={anioActual === 2015 && mesActual === 0}
-                                    style={{paddingInline: 5}}
-                                >
-                                    &lt;{screenType !== "mobile" ? "Año Anterior" : "Anterior "}
-                                </Button>
-
-                                <h3>{anioActual}</h3>
-
-                                <Button
-                                    onClick={() => cambiarYear('siguiente')}
-                                    disabled={anioActual === 2035 && mesActual === 11}
-                                    style={{paddingInline: 5}}
-                                >
-                                    {screenType !== "mobile" ? "Año Siguiente" : "Siguiente "}&gt;
-                                </Button>
-                            </>
-                            :
-                            <>
-                                <Button
-                                    onClick={() => cambiarMes('anterior')}
-                                    disabled={anioActual === 2015 && mesActual === 0}
-                                    style={{paddingInline: 5}}
-                                >
-                                    &lt;{screenType !== "mobile" ? "Mes Anterior" : "Anterior "}
-
-                                </Button>
-
-                                <div className="d-flex justify-content-center align-items-center" style={{ flexDirection: "column" }}>
-
-                                    <h3 style={{ paddingRight: 5 }}> {meses[mesActual]} </h3>
-                                    <h3>{anioActual}</h3>
-                                </div>
-
-                                <Button
-                                    onClick={() => cambiarMes('siguiente')}
-                                    disabled={anioActual === 2035 && mesActual === 11}
-                                    style={{paddingInline: 5}}
-                                >
-                                    {screenType !== "mobile" ? "Mes Siguiente" : "Siguiente "}&gt;
-                                </Button>
-                            </>
-
-                    }
-
-                </div>
+                {renderBotonesNavegacion()}
 
                 <Row>
                     {rowView && datosCalendario.map((data, index) => (
@@ -169,25 +165,17 @@ const HomePage: React.FC = () => {
                         let data = calendariosPorAnio[anioActual]?.[indice];
                         let anioMostrar = anioActual;
 
-                        // console.log("viewMode", viewMode);
-
                         if (parseInt(viewMode) !== 1) {
-
-                            // Manejo de condiciones especiales
                             if (pos === 2 && indice === 0) {
-                                // Caso 10, 11, 0: Mes 0 del siguiente año
                                 anioMostrar = anioActual + 1;
                                 data = calendariosPorAnio[anioMostrar]?.[0];
                             } else if (pos === 0 && indice === 11) {
-                                // Caso 11, 0, 1: Mes 11 del año anterior
                                 anioMostrar = anioActual - 1;
                                 data = calendariosPorAnio[anioMostrar]?.[11];
                             }
                         }
 
                         if (!data || !data.imagen || !data.mensaje) return null;
-
-                        // console.log(`Imprimiendo mes ${indice} del año ${anioMostrar}`);
 
                         return (
                             <Col key={`${anioMostrar}-${indice}`} xs={12 / parseInt(viewMode, 10)}>
@@ -210,6 +198,10 @@ const HomePage: React.FC = () => {
                         );
                     })}
                 </Row>
+
+                {
+                    rowView && renderBotonesNavegacion()
+                }
             </Card.Body>
         </Card>
     );

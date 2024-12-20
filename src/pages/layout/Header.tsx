@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({
     setIsTodayAndPast
 }) => {
     const [showSidebar, setShowSidebar] = useState(false);
-    const [isRowView, setIsRowView] = useState(true);
+    const [isRowView, setIsRowView] = useState(false);
 
     const toggleSidebar = () => setShowSidebar(!showSidebar);
 
@@ -87,7 +87,7 @@ const Header: React.FC<HeaderProps> = ({
 
     return (
         <>
-            <Navbar className="bg-custom-dark" expand="lg">
+            <Navbar className="bg-custom-dark fixed-top" expand="lg">
                 <Container fluid>
 
                 <Navbar>
@@ -137,12 +137,12 @@ const Header: React.FC<HeaderProps> = ({
                             Cambiar Distribución ({distribucion ? 'True' : 'False'})
                         </Button>
 
-                        <Button variant="outline-light" onClick={toggleDarkMode} className="me-2">
-                            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
-                        </Button>
-
                         <Button variant="outline-light" onClick={reloadPage} className="me-2">
                             Recargar Página
+                        </Button>
+
+                        <Button variant="outline-light" onClick={toggleDarkMode} className="me-2">
+                            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
                         </Button>
                     </div>
                 </Container>
@@ -181,12 +181,16 @@ const Header: React.FC<HeaderProps> = ({
                         Cambiar Distribución ({distribucion ? 'True' : 'False'})
                     </Button>
 
-                    <Button variant="outline-secondary" onClick={toggleDarkMode} className="w-100 mb-3">
-                        {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
+                    <Button variant="outline-secondary" onClick={()=> setIsTodayAndPast(!isTodayAndPast)} className="w-100 mb-3">
+                        {isTodayAndPast ? 'Desmarcar Hoy y Pasados' : 'Marcar Hoy y Pasados'}
                     </Button>
 
                     <Button variant="outline-secondary" onClick={reloadPage} className="w-100 mb-3">
                         Recargar Página
+                    </Button>
+
+                    <Button variant="outline-secondary" onClick={toggleDarkMode} className="w-100 mb-3">
+                        {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
                     </Button>
                 </Offcanvas.Body>
             </Offcanvas>
