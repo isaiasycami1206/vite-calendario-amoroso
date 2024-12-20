@@ -1,0 +1,99 @@
+@import "custom";
+
+:root {
+    --background-color: #eef5f9;
+    --sidebar-background-color: #FFFFFF;
+    --card-background-color: #FFFFFF;
+    --list-group-item-active-bg: #001e3c;
+    --list-group-item-active-color: #ffffff; // Color del texto para el modo claro
+
+
+    --primary-color: #F29810;
+    --secondary-color: #8C8B8B;
+    --tertiary-color: #747476;
+    --background-secondary-color: #FFFFFF;
+    --text-primary-color: #333333;
+    --text-secondary-color: #666666;
+    --dropdown-background-color: #FFFFFF;
+}
+
+[data-bs-theme="dark"] {
+    --background-color: #0a2744;
+    --sidebar-background-color: #1e3a5a;
+    --card-background-color: #1e3a5a;
+    --list-group-item-active-bg: #345678; // Color de fondo para el modo oscuro
+    --list-group-item-active-color: #ffffff; // Color del texto para el modo oscuro
+
+
+    --text-primary-color: #FFFFFF;
+    --text-secondary-color: #CCCCCC;
+    --dropdown-background-color: #1e3a5a;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-primary-color);
+}
+
+
+.bg-sidebar {
+    background-color: var(--sidebar-background-color);
+    color: var(--text-primary-color);
+}
+
+.bg-card {
+    background-color: var(--card-background-color);
+    color: var(--text-primary-color);
+}
+
+
+.list-group-item.active {
+    background-color: var(--list-group-item-active-bg) !important;
+    border-color: var(--list-group-item-active-bg) !important;
+    color: var(--list-group-item-active-color) !important;
+}
+
+/*
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
+}
+
+.header .dropdown-menu {
+    background-color: var(--dropdown-background-color);
+}
+
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--background-secondary-color);
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: var(--background-secondary-color);
+}
+
+.card {
+    background-color: var(--background-secondary-color);
+    color: var(--text-primary-color);
+}
+
+.text-secondary {
+    color: var(--text-secondary-color);
+} */

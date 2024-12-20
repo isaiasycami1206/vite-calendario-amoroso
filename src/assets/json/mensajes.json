@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "message": "Y es que yo nunca te olvido aunque te deje de amar, son las cosas que pasan cuando nos dejan de hablar.",
+        "tituloMensaje": "Morat - Letras de Canciones",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 2,
+        "message": "Si estás buscando una razón para rendirte, recuerda todo lo que ya has superado.",
+        "tituloMensaje": "Resiliencia",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 3,
+        "message": "Confía en el proceso y en tus esfuerzos. ¡Lo lograrás!",
+        "tituloMensaje": "Confianza",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 4,
+        "message": "Aunque todo parezca oscuro, nunca dejes de buscar la luz.",
+        "tituloMensaje": "Esperanza",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 5,
+        "message": "Te amo no por lo que eres, sino por lo que soy cuando estoy contigo.",
+        "tituloMensaje": "Amor Incondicional",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 6,
+        "message": "Qué bendición tan grande haberte encontrado cuando no buscaba a nadie.",
+        "tituloMensaje": "Morat - Bendición",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 7,
+        "message": "Eres más fuerte de lo que crees y más valiente de lo que imaginas.",
+        "tituloMensaje": "Fuerza Interior",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 8,
+        "message": "Hoy es un buen día para empezar algo nuevo.",
+        "tituloMensaje": "Nuevos Comienzos",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 9,
+        "message": "El éxito llega para quienes nunca pierden la fe y la constancia.",
+        "tituloMensaje": "Compromiso con tus Metas",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 10,
+        "message": "Amar no es mirarse el uno al otro, sino mirar juntos en la misma dirección.",
+        "tituloMensaje": "Amor Eterno",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 11,
+        "message": "Y no sé si soy el mismo que te gustaba a ti, pero sigo siendo el mismo que nunca se fue.",
+        "tituloMensaje": "Morat - Nunca Se Fue",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 12,
+        "message": "Tu vida importa más de lo que imaginas. No te rindas.",
+        "tituloMensaje": "Valor de tu Vida",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 13,
+        "message": "La diferencia entre el éxito y el fracaso está en tu actitud.",
+        "tituloMensaje": "Actitud Positiva",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 14,
+        "message": "Las tormentas más fuertes traen los arcoíris más hermosos.",
+        "tituloMensaje": "Después de la Tormenta",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 15,
+        "message": "El amor verdadero no se busca, te encuentra cuando menos lo esperas.",
+        "tituloMensaje": "Amor Verdadero",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 16,
+        "message": "A veces me pregunto si tú también me piensas, aunque estemos lejos.",
+        "tituloMensaje": "Morat - Lejos de Ti",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 17,
+        "message": "Está bien no estar bien. Permítete sentir y sanar.",
+        "tituloMensaje": "Sanar",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 18,
+        "message": "No te compares, eres único y especial.",
+        "tituloMensaje": "Autoestima",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 19,
+        "message": "Nunca dejes de luchar por tus sueños, sin importar lo imposible que parezca.",
+        "tituloMensaje": "Sueños por Cumplir",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 20,
+        "message": "Amar es darlo todo, incluso cuando no esperas nada a cambio.",
+        "tituloMensaje": "Entrega Total",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 21,
+        "message": "Y aunque duela, el amor siempre deja su huella.",
+        "tituloMensaje": "Morat - Huella del Amor",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 22,
+        "message": "No estás solo, siempre hay alguien que se preocupa por ti.",
+        "tituloMensaje": "Compañía en la Soledad",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 23,
+        "message": "El éxito no es la clave de la felicidad; la felicidad es la clave del éxito.",
+        "tituloMensaje": "Felicidad y Éxito",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 24,
+        "message": "Cuando crees que no puedes, estás más cerca de lograrlo.",
+        "tituloMensaje": "Cree en Ti",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 25,
+        "message": "El amor es la fuerza más poderosa del universo.",
+        "tituloMensaje": "Poder del Amor",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 26,
+        "message": "Y me arrepiento de no haberte dicho todo a tiempo.",
+        "tituloMensaje": "Morat - Arrepentimientos",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 27,
+        "message": "A veces el mayor acto de amor es dejar ir.",
+        "tituloMensaje": "Dejar Ir",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 28,
+        "message": "Hoy puede ser el día en que todo cambie para ti.",
+        "tituloMensaje": "Cambios Positivos",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 29,
+        "message": "Mantén tus promesas y verás cómo el mundo confía más en ti.",
+        "tituloMensaje": "Cumple Promesas",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 30,
+        "message": "Estar contigo es lo más cerca que he estado del paraíso.",
+        "tituloMensaje": "Contigo Siempre",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 31,
+        "message": "Te escribí mil cartas y ninguna te llegó.",
+        "tituloMensaje": "Morat - Cartas No Entregadas",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 32,
+        "message": "Recuerda que el sol siempre vuelve a salir.",
+        "tituloMensaje": "Nuevo Amanecer",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 33,
+        "message": "Cada pequeño paso te acerca más a tu meta.",
+        "tituloMensaje": "Pequeños Logros",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 34,
+        "message": "No hay amor más fuerte que aquel que crece con el tiempo.",
+        "tituloMensaje": "Amor que Perdura",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 35,
+        "message": "Nunca te rindas, lo mejor aún está por venir.",
+        "tituloMensaje": "Fe en el Futuro",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 36,
+        "message": "Me duele más el silencio que cualquier despedida.",
+        "tituloMensaje": "Morat - El Silencio",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 37,
+        "message": "A veces, todo lo que necesitas es un abrazo sincero.",
+        "tituloMensaje": "Abrazo Sincero",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 38,
+        "message": "El éxito está en tus manos, no en las de los demás.",
+        "tituloMensaje": "Responsabilidad Propia",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 39,
+        "message": "Cree en los milagros, porque cada día es uno.",
+        "tituloMensaje": "Milagros Cotidianos",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 40,
+        "message": "Amar significa crecer juntos, no perderse el uno al otro.",
+        "tituloMensaje": "Amor que Crece",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 41,
+        "message": "Bésame en esta noche que podría ser la última.",
+        "tituloMensaje": "Canciones de Morat",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 42,
+        "message": "Me dolió más perderte que las derrotas que la vida me dio.",
+        "tituloMensaje": "Dolor por Pérdida",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 43,
+        "message": "Yo también tengo miedo, pero no voy a parar.",
+        "tituloMensaje": "Persistencia",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 44,
+        "message": "Y si las estrellas hablaran, contarían todo lo que guardo para ti.",
+        "tituloMensaje": "Las Estrellas y Tú",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 45,
+        "message": "No hay peor adiós que el que nunca se dice en voz alta.",
+        "tituloMensaje": "Adiós en Silencio",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 46,
+        "message": "Perdí mi orgullo, pero jamás mis ganas de intentarlo contigo.",
+        "tituloMensaje": "Intentarlo Contigo",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 47,
+        "message": "El día que te fuiste, el silencio se quedó.",
+        "tituloMensaje": "El Silencio",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 48,
+        "message": "Si no vuelves, que las canciones sean mi refugio.",
+        "tituloMensaje": "Refugio en Canciones",
+        "clasificacion": "Canciones de Morat"
+    },
+    {
+        "id": 49,
+        "message": "A veces, el alma solo necesita que alguien diga 'Estoy contigo'.",
+        "tituloMensaje": "Estoy Contigo",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 50,
+        "message": "Llorar no te hace débil, te recuerda que sigues siendo humano.",
+        "tituloMensaje": "Humanidad en Lágrimas",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 51,
+        "message": "El corazón roto es la prueba de que lo diste todo.",
+        "tituloMensaje": "Corazón Roto",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 52,
+        "message": "No tengas miedo de sentir, eso es lo que nos mantiene vivos.",
+        "tituloMensaje": "El Valor de Sentir",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 53,
+        "message": "Hay días oscuros, pero incluso en la noche más negra, las estrellas brillan.",
+        "tituloMensaje": "Luz en la Oscuridad",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 54,
+        "message": "El amor propio es el abrazo que nadie más puede darte.",
+        "tituloMensaje": "Amor Propio",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 55,
+        "message": "Perdona, no porque lo merezcan, sino porque tu alma necesita paz.",
+        "tituloMensaje": "El Poder del Perdón",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 56,
+        "message": "A veces, el silencio también habla de amor.",
+        "tituloMensaje": "Silencio de Amor",
+        "clasificacion": "Mensaje Emocional"
+    },
+    {
+        "id": 57,
+        "message": "El fracaso no es el final, es solo el inicio de algo nuevo.",
+        "tituloMensaje": "Fracasos y Nuevos Comienzos",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 58,
+        "message": "Si puedes soñarlo, entonces puedes lograrlo.",
+        "tituloMensaje": "Sueños Realizables",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 59,
+        "message": "El verdadero éxito está en nunca dejar de intentar.",
+        "tituloMensaje": "Éxito en la Perseverancia",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 60,
+        "message": "No te compares, tu única competencia eres tú mismo.",
+        "tituloMensaje": "Competencia Interna",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 61,
+        "message": "Lo imposible es solo un reto esperando ser conquistado.",
+        "tituloMensaje": "Conquista lo Imposible",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 62,
+        "message": "Las pequeñas acciones crean grandes cambios.",
+        "tituloMensaje": "Pequeñas Acciones",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 63,
+        "message": "Tú tienes el poder de cambiar tu destino.",
+        "tituloMensaje": "Poder Personal",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 64,
+        "message": "El esfuerzo constante supera al talento cuando el talento no trabaja duro.",
+        "tituloMensaje": "Esfuerzo Constante",
+        "clasificacion": "Motivación"
+    },
+    {
+        "id": 65,
+        "message": "Las tormentas también tienen un final, siempre sale el sol.",
+        "tituloMensaje": "Después de la Tormenta",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 66,
+        "message": "El cambio comienza con un pequeño paso hacia adelante.",
+        "tituloMensaje": "Primer Paso",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 67,
+        "message": "Mientras sigas luchando, hay esperanza.",
+        "tituloMensaje": "Lucha y Esperanza",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 68,
+        "message": "No estás solo, siempre hay alguien que cree en ti.",
+        "tituloMensaje": "Nunca Estás Solo",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 69,
+        "message": "El mundo cambia cuando decides cambiar tu perspectiva.",
+        "tituloMensaje": "Cambio de Perspectiva",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 70,
+        "message": "La fe es lo único que no puedes perder.",
+        "tituloMensaje": "Fe Inquebrantable",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 71,
+        "message": "A veces, confiar en el proceso es todo lo que necesitas.",
+        "tituloMensaje": "Confía en el Proceso",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 72,
+        "message": "Donde hay vida, siempre hay posibilidades.",
+        "tituloMensaje": "Posibilidades Inesperadas",
+        "clasificacion": "Compromiso y Esperanza"
+    },
+    {
+        "id": 73,
+        "message": "El amor no se mide en palabras, sino en gestos que llegan al corazón.",
+        "tituloMensaje": "Gestos de Amor",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 74,
+        "message": "Amar es entregar tu alma sin pedir nada a cambio.",
+        "tituloMensaje": "Amar Incondicionalmente",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 75,
+        "message": "El verdadero amor nunca muere, solo se transforma.",
+        "tituloMensaje": "Amor Eterno",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 76,
+        "message": "Cada beso es una promesa de estar contigo siempre.",
+        "tituloMensaje": "Besos y Promesas",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 77,
+        "message": "No hay nada más hermoso que amar sin miedos.",
+        "tituloMensaje": "Amar Sin Miedo",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 78,
+        "message": "Eres mi hogar, incluso cuando estamos lejos.",
+        "tituloMensaje": "Hogar Contigo",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 79,
+        "message": "Amarte es mi decisión favorita cada día.",
+        "tituloMensaje": "Decisión de Amar",
+        "clasificacion": "Mensaje de Amor"
+    },
+    {
+        "id": 80,
+        "message": "El amor verdadero ilumina incluso los días más oscuros.",
+        "tituloMensaje": "Luz del Amor",
+        "clasificacion": "Mensaje de Amor"
+    }
+]

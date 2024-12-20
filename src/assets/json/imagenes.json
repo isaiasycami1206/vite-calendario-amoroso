@@ -1,0 +1,395 @@
+[
+
+    {
+        "id": 1,
+        "tituloImagen": "Charla nutri casino",
+        "ruta": "./assets/calendar/charla-nutri-casino.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 2,
+        "tituloImagen": "Depa cepillo",
+        "ruta": "./assets/calendar/depa-cepillo.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 3,
+        "tituloImagen": "Plaza feliz",
+        "ruta": "./assets/calendar/plaza-feliz.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 4,
+        "tituloImagen": "Ascensor",
+        "ruta": "./assets/calendar/ascensor.jpg",
+        "style": "vertical",
+        "direction": "center 50%"
+    },
+    {
+        "id": 5,
+        "tituloImagen": "Ariatne 15 elegantes",
+        "ruta": "./assets/calendar/ariatne-15-elegantes.jpg",
+        "style": "vertical",
+        "direction": "center 28%"
+    },
+    {
+        "id": 6,
+        "tituloImagen": "Ariatne 15 pandemia",
+        "ruta": "./assets/calendar/ariatne-15-pandemia.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 7,
+        "tituloImagen": "Beso con cami hermosa",
+        "ruta": "./assets/calendar/beso-con-cami-hermosa.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 8,
+        "tituloImagen": "Casual Spiderman",
+        "ruta": "./assets/calendar/casual-spiderman.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 9,
+        "tituloImagen": "Coquimbo juntos",
+        "ruta": "./assets/calendar/coquimbo-juntos.jpg",
+        "style": "vertical",
+        "direction": "center 56%"
+    },
+    {
+        "id": 10,
+        "tituloImagen": "Cpech pandemia",
+        "ruta": "./assets/calendar/cpech-pandemia.jpg",
+        "style": "vertical",
+        "direction": "center 53%"
+    },
+    {
+        "id": 11,
+        "tituloImagen": "Crucero atrapaste corazon",
+        "ruta": "./assets/calendar/crucero-atrapaste-corazon.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 12,
+        "tituloImagen": "Feliz navidad",
+        "ruta": "./assets/calendar/feliz-navidad.jpg",
+        "style": "vertical",
+        "direction": "center 50%"
+    },
+    {
+        "id": 13,
+        "tituloImagen": "Feria momentos",
+        "ruta": "./assets/calendar/feria-momentos.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 14,
+        "tituloImagen": "Feria momentos 2",
+        "ruta": "./assets/calendar/feria-momentos-2.jpg",
+        "style": "vertical",
+        "direction": "center 52%"
+    },
+    {
+        "id": 15,
+        "tituloImagen": "Ferny conociendonos",
+        "ruta": "./assets/calendar/ferny-conociendonos.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 16,
+        "tituloImagen": "Foto descansando tongoy",
+        "ruta": "./assets/calendar/foto-descansando-tongoy.jpg",
+        "style": "vertical",
+        "direction": "center 45%"
+    },
+    {
+        "id": 17,
+        "tituloImagen": "Harry Potter",
+        "ruta": "./assets/calendar/harrypotter.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 18,
+        "tituloImagen": "Harry Potter 2",
+        "ruta": "./assets/calendar/harrypotter2.jpg",
+        "style": "vertical",
+        "direction": "center 42%"
+    },
+    {
+        "id": 19,
+        "tituloImagen": "Valpo",
+        "ruta": "./assets/calendar/valpo.jpg",
+        "style": "vertical",
+        "direction": "center 50%"
+    },
+    {
+        "id": 20,
+        "tituloImagen": "Playa con frio",
+        "ruta": "./assets/calendar/playa-con-frio.jpg",
+        "style": "vertical",
+        "direction": "center 53%"
+    },
+    {
+        "id": 21,
+        "tituloImagen": "Plaza felices 2",
+        "ruta": "./assets/calendar/plaza-felices-2.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 22,
+        "tituloImagen": "Cumpleaños Santiago",
+        "ruta": "./assets/calendar/cumpleaños-santiago.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 23,
+        "tituloImagen": "Momentos juntos cama",
+        "ruta": "./assets/calendar/momentos-juntos-cama.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 24,
+        "tituloImagen": "Momentos felices cama 2",
+        "ruta": "./assets/calendar/momentos-felices-cama-2.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 25,
+        "tituloImagen": "Momentos felices cama 3",
+        "ruta": "./assets/calendar/momentos-felices-cama-3.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 26,
+        "tituloImagen": "CityPoint",
+        "ruta": "./assets/calendar/citypoint.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 27,
+        "tituloImagen": "4to Ferni alocado",
+        "ruta": "./assets/calendar/4to-ferni-alocado.jpg",
+        "style": "vertical",
+        "direction": "center 40%"
+    },
+    {
+        "id": 28,
+        "tituloImagen": "4to Ferni serios",
+        "ruta": "./assets/calendar/4to-ferni-serios.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 29,
+        "tituloImagen": "Romantico playa Tongoy",
+        "ruta": "./assets/calendar/romantico-playa-tongoy.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 30,
+        "tituloImagen": "Abrazo romantico playa",
+        "ruta": "./assets/calendar/abraso-romantico-playa.jpg",
+        "style": "vertical",
+        "direction": "center 80%"
+    },
+    {
+        "id": 31,
+        "tituloImagen": "Playa grande Tongoy",
+        "ruta": "./assets/calendar/playa-grande-tongoy.jpg",
+        "style": "vertical",
+        "direction": "center 54%"
+    },
+    {
+        "id": 32,
+        "tituloImagen": "Juntos depa Serena",
+        "ruta": "./assets/calendar/juntitos-depa-serena.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 33,
+        "tituloImagen": "Los Dereks",
+        "ruta": "./assets/calendar/los-dereks.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 34,
+        "tituloImagen": "Media carpa",
+        "ruta": "./assets/calendar/media-carpa.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 35,
+        "tituloImagen": "Mi hermosa cami",
+        "ruta": "./assets/calendar/mi-hermosa-cami.jpg",
+        "style": "vertical",
+        "direction": "center 32%"
+    },
+    {
+        "id": 36,
+        "tituloImagen": "Moai",
+        "ruta": "./assets/calendar/moai.jpg",
+        "style": "vertical",
+        "direction": "center 60%"
+    },
+    {
+        "id": 37,
+        "tituloImagen": "Oncesitas felices",
+        "ruta": "./assets/calendar/oncesitas-felices.jpg",
+        "style": "vertical",
+        "direction": "center 45%"
+    },
+    {
+        "id": 38,
+        "tituloImagen": "Parque japones 1",
+        "ruta": "./assets/calendar/parque-japones-1.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 39,
+        "tituloImagen": "Parque Japonés 2",
+        "ruta": "./assets/calendar/parque-japones-2.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 40,
+        "tituloImagen": "Parque Japonés 3",
+        "ruta": "./assets/calendar/parque-japones-3.jpg",
+        "style": "horizontal",
+        "direction": "center 43%"
+    },
+    {
+        "id": 41,
+        "tituloImagen": "Parque Japonés 4",
+        "ruta": "./assets/calendar/parque-japones-4.jpg",
+        "style": "vertical",
+        "direction": "center 46%"
+    },
+    {
+        "id": 42,
+        "tituloImagen": "Paseo población Serena",
+        "ruta": "./assets/calendar/paseo-poblacion-serena.jpg",
+        "style": "vertical",
+        "direction": "center 42%"
+    },
+    {
+        "id": 43,
+        "tituloImagen": "Playa escondida Totoralillo",
+        "ruta": "./assets/calendar/playa-escondida-totoralillo.jpg",
+        "style": "vertical",
+        "direction": "center 50%"
+    },
+    {
+        "id": 44,
+        "tituloImagen": "Playa noche",
+        "ruta": "./assets/calendar/playa-noche.jpg",
+        "style": "vertical",
+        "direction": "center 60%"
+    },
+    {
+        "id": 45,
+        "tituloImagen": "Playa no me acuerdo",
+        "ruta": "./assets/calendar/playa-no-me-acuerdo.jpg",
+        "style": "vertical",
+        "direction": "center 44%"
+    },
+    {
+        "id": 46,
+        "tituloImagen": "Primera selfie",
+        "ruta": "./assets/calendar/Primera-selfie.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 47,
+        "tituloImagen": "Selfie furgón",
+        "ruta": "./assets/calendar/selfie-furgon.jpg",
+        "style": "vertical",
+        "direction": "center 45%"
+    },
+    {
+        "id": 48,
+        "tituloImagen": "Selfie playa enjoy",
+        "ruta": "./assets/calendar/selfie-playa-enjoy.jpg",
+        "style": "vertical",
+        "direction": "center 40%"
+    },
+    {
+        "id": 49,
+        "tituloImagen": "Sherk",
+        "ruta": "./assets/calendar/sherk.jpg",
+        "style": "horizontal",
+        "direction": "center 5%"
+    },
+    {
+        "id": 50,
+        "tituloImagen": "Tequila",
+        "ruta": "./assets/calendar/tequila.jpg",
+        "style": "vertical",
+        "direction": "center 57%"
+    },
+    {
+        "id": 51,
+        "tituloImagen": "Tesis beso",
+        "ruta": "./assets/calendar/tesis-beso.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 52,
+        "tituloImagen": "Tesis casual",
+        "ruta": "./assets/calendar/tesis-casual.jpg",
+        "style": "vertical",
+        "direction": "center 52%"
+    },
+    {
+        "id": 53,
+        "tituloImagen": "Tesis chancheando",
+        "ruta": "./assets/calendar/tesis-chancheando.jpg",
+        "style": "vertical",
+        "direction": "center 28%"
+    },
+    {
+        "id": 54,
+        "tituloImagen": "Titulación Instagram",
+        "ruta": "./assets/calendar/titulacion-instagram.jpg",
+        "style": "vertical",
+        "direction": "center 30%"
+    },
+    {
+        "id": 55,
+        "tituloImagen": "Tongoy arriba mirador",
+        "ruta": "./assets/calendar/tongoy-arriba-mirador.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    },
+    {
+        "id": 56,
+        "tituloImagen": "Tongoy enamorados",
+        "ruta": "./assets/calendar/tongoy-enamorados.jpg",
+        "style": "horizontal",
+        "direction": "center 30%"
+    }
+]

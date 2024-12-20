@@ -1,0 +1,1054 @@
+{
+    "calendario": {
+        "2015": {
+            "enero": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "febrero": {
+                "comienza": "domingo 1",
+                "termina": "sábado 28"
+            },
+            "marzo": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "abril": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "mayo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "junio": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "julio": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "agosto": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "septiembre": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "octubre": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "noviembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "diciembre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            }
+        },
+        "2016": {
+            "enero": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "febrero": {
+                "comienza": "lunes 1",
+                "termina": "lunes 29"
+            },
+            "marzo": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "abril": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "mayo": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "junio": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "julio": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "agosto": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "septiembre": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "octubre": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "noviembre": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "diciembre": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            }
+        },
+        "2017": {
+            "enero": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "febrero": {
+                "comienza": "miércoles 1",
+                "termina": "martes 28"
+            },
+            "marzo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "abril": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "mayo": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "junio": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "julio": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "agosto": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "septiembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "octubre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "noviembre": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "diciembre": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            }
+        },
+        "2018": {
+            "enero": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "febrero": {
+                "comienza": "jueves 1",
+                "termina": "miércoles 28"
+            },
+            "marzo": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "abril": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "mayo": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "junio": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "julio": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "agosto": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "septiembre": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "octubre": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "noviembre": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "diciembre": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            }
+        },
+        "2019": {
+            "enero": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "febrero": {
+                "comienza": "viernes 1",
+                "termina": "jueves 28"
+            },
+            "marzo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "abril": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "mayo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "junio": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "julio": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "agosto": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "septiembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "octubre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "noviembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "diciembre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            }
+        },
+        "2020": {
+            "enero": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "febrero": {
+                "comienza": "sábado 1",
+                "termina": "sábado 29"
+            },
+            "marzo": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "abril": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "mayo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "junio": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "julio": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "agosto": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "septiembre": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "octubre": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "noviembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "diciembre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            }
+        },
+        "2021": {
+            "enero": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "febrero": {
+                "comienza": "lunes 1",
+                "termina": "domingo 28"
+            },
+            "marzo": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "abril": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "mayo": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "junio": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "julio": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "agosto": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "septiembre": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "octubre": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "noviembre": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "diciembre": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            }
+        },
+        "2022": {
+            "enero": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "febrero": {
+                "comienza": "martes 1",
+                "termina": "lunes 28"
+            },
+            "marzo": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "abril": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "mayo": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "junio": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "julio": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "agosto": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "septiembre": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "octubre": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "noviembre": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "diciembre": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            }
+        },
+        "2023": {
+            "enero": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "febrero": {
+                "comienza": "miércoles 1",
+                "termina": "martes 28"
+            },
+            "marzo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "abril": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "mayo": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "junio": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "julio": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "agosto": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "septiembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "octubre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "noviembre": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "diciembre": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            }
+        },
+        "2024": {
+            "enero": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "febrero": {
+                "comienza": "jueves 1",
+                "termina": "jueves 29"
+            },
+            "marzo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "abril": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "mayo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "junio": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "julio": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "agosto": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "septiembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "octubre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "noviembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "diciembre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            }
+        },
+        "2025": {
+            "enero": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "febrero": {
+                "comienza": "sábado 1",
+                "termina": "viernes 28"
+            },
+            "marzo": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "abril": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "mayo": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "junio": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "julio": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "agosto": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "septiembre": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "octubre": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "noviembre": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "diciembre": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            }
+        },
+        "2026": {
+            "enero": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "febrero": {
+                "comienza": "domingo 1",
+                "termina": "sábado 28"
+            },
+            "marzo": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "abril": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "mayo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "junio": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "julio": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "agosto": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "septiembre": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "octubre": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "noviembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "diciembre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            }
+        },
+        "2027": {
+            "enero": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "febrero": {
+                "comienza": "lunes 1",
+                "termina": "domingo 28"
+            },
+            "marzo": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "abril": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "mayo": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "junio": {
+                "comienza": "martes 1",
+                "termina": "miércoles 30"
+            },
+            "julio": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "agosto": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "septiembre": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "octubre": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "noviembre": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "diciembre": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            }
+        },
+        "2028": {
+            "enero": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "febrero": {
+                "comienza": "martes 1",
+                "termina": "martes 29"
+            },
+            "marzo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "abril": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "mayo": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "junio": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "julio": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            },
+            "agosto": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "septiembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "octubre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "noviembre": {
+                "comienza": "miércoles 1",
+                "termina": "jueves 30"
+            },
+            "diciembre": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            }
+        },
+        "2029": {
+            "enero": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "febrero": {
+                "comienza": "jueves 1",
+                "termina": "miércoles 28"
+            },
+            "marzo": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "abril": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "mayo": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "junio": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "julio": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            },
+            "agosto": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "septiembre": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "octubre": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "noviembre": {
+                "comienza": "jueves 1",
+                "termina": "viernes 30"
+            },
+            "diciembre": {
+                "comienza": "sábado 1",
+                "termina": "lunes 31"
+            }
+        },
+        "2030": {
+            "enero": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "febrero": {
+                "comienza": "viernes 1",
+                "termina": "jueves 28"
+            },
+            "marzo": {
+                "comienza": "viernes 1",
+                "termina": "domingo 31"
+            },
+            "abril": {
+                "comienza": "lunes 1",
+                "termina": "martes 30"
+            },
+            "mayo": {
+                "comienza": "miércoles 1",
+                "termina": "viernes 31"
+            },
+            "junio": {
+                "comienza": "sábado 1",
+                "termina": "domingo 30"
+            },
+            "julio": {
+                "comienza": "lunes 1",
+                "termina": "miércoles 31"
+            },
+            "agosto": {
+                "comienza": "jueves 1",
+                "termina": "sábado 31"
+            },
+            "septiembre": {
+                "comienza": "domingo 1",
+                "termina": "lunes 30"
+            },
+            "octubre": {
+                "comienza": "martes 1",
+                "termina": "jueves 31"
+            },
+            "noviembre": {
+                "comienza": "viernes 1",
+                "termina": "sábado 30"
+            },
+            "diciembre": {
+                "comienza": "domingo 1",
+                "termina": "martes 31"
+            }
+        }
+    },
+    "2031": {
+        "enero": {
+            "comienza": "miércoles 1",
+            "termina": "viernes 31"
+        },
+        "febrero": {
+            "comienza": "sábado 1",
+            "termina": "viernes 28"
+        },
+        "marzo": {
+            "comienza": "sábado 1",
+            "termina": "lunes 31"
+        },
+        "abril": {
+            "comienza": "martes 1",
+            "termina": "miércoles 30"
+        },
+        "mayo": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        },
+        "junio": {
+            "comienza": "domingo 1",
+            "termina": "lunes 30"
+        },
+        "julio": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        },
+        "agosto": {
+            "comienza": "viernes 1",
+            "termina": "domingo 31"
+        },
+        "septiembre": {
+            "comienza": "lunes 1",
+            "termina": "martes 30"
+        },
+        "octubre": {
+            "comienza": "miércoles 1",
+            "termina": "viernes 31"
+        },
+        "noviembre": {
+            "comienza": "sábado 1",
+            "termina": "domingo 30"
+        },
+        "diciembre": {
+            "comienza": "lunes 1",
+            "termina": "miércoles 31"
+        }
+    },
+    "2032": {
+        "enero": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        },
+        "febrero": {
+            "comienza": "domingo 1",
+            "termina": "domingo 29"
+        },
+        "marzo": {
+            "comienza": "lunes 1",
+            "termina": "martes 31"
+        },
+        "abril": {
+            "comienza": "miércoles 1",
+            "termina": "jueves 30"
+        },
+        "mayo": {
+            "comienza": "viernes 1",
+            "termina": "domingo 31"
+        },
+        "junio": {
+            "comienza": "lunes 1",
+            "termina": "martes 30"
+        },
+        "julio": {
+            "comienza": "miércoles 1",
+            "termina": "viernes 31"
+        },
+        "agosto": {
+            "comienza": "sábado 1",
+            "termina": "lunes 31"
+        },
+        "septiembre": {
+            "comienza": "martes 1",
+            "termina": "miércoles 30"
+        },
+        "octubre": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        },
+        "noviembre": {
+            "comienza": "domingo 1",
+            "termina": "lunes 30"
+        },
+        "diciembre": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        }
+    },
+    "2033": {
+        "enero": {
+            "comienza": "viernes 1",
+            "termina": "domingo 31"
+        },
+        "febrero": {
+            "comienza": "lunes 1",
+            "termina": "lunes 28"
+        },
+        "marzo": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        },
+        "abril": {
+            "comienza": "viernes 1",
+            "termina": "sábado 30"
+        },
+        "mayo": {
+            "comienza": "domingo 1",
+            "termina": "martes 31"
+        },
+        "junio": {
+            "comienza": "miércoles 1",
+            "termina": "jueves 30"
+        },
+        "julio": {
+            "comienza": "viernes 1",
+            "termina": "domingo 31"
+        },
+        "agosto": {
+            "comienza": "lunes 1",
+            "termina": "miércoles 31"
+        },
+        "septiembre": {
+            "comienza": "jueves 1",
+            "termina": "viernes 30"
+        },
+        "octubre": {
+            "comienza": "sábado 1",
+            "termina": "lunes 31"
+        },
+        "noviembre": {
+            "comienza": "martes 1",
+            "termina": "miércoles 30"
+        },
+        "diciembre": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        }
+    },
+    "2034": {
+        "enero": {
+            "comienza": "domingo 1",
+            "termina": "martes 31"
+        },
+        "febrero": {
+            "comienza": "miércoles 1",
+            "termina": "miércoles 28"
+        },
+        "marzo": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        },
+        "abril": {
+            "comienza": "domingo 1",
+            "termina": "lunes 30"
+        },
+        "mayo": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        },
+        "junio": {
+            "comienza": "viernes 1",
+            "termina": "sábado 30"
+        },
+        "julio": {
+            "comienza": "domingo 1",
+            "termina": "martes 31"
+        },
+        "agosto": {
+            "comienza": "miércoles 1",
+            "termina": "viernes 31"
+        },
+        "septiembre": {
+            "comienza": "sábado 1",
+            "termina": "domingo 30"
+        },
+        "octubre": {
+            "comienza": "lunes 1",
+            "termina": "miércoles 31"
+        },
+        "noviembre": {
+            "comienza": "jueves 1",
+            "termina": "viernes 30"
+        },
+        "diciembre": {
+            "comienza": "sábado 1",
+            "termina": "lunes 31"
+        }
+    },
+    "2035": {
+        "enero": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        },
+        "febrero": {
+            "comienza": "viernes 1",
+            "termina": "jueves 28"
+        },
+        "marzo": {
+            "comienza": "viernes 1",
+            "termina": "domingo 31"
+        },
+        "abril": {
+            "comienza": "lunes 1",
+            "termina": "martes 30"
+        },
+        "mayo": {
+            "comienza": "miércoles 1",
+            "termina": "viernes 31"
+        },
+        "junio": {
+            "comienza": "sábado 1",
+            "termina": "domingo 30"
+        },
+        "julio": {
+            "comienza": "lunes 1",
+            "termina": "miércoles 31"
+        },
+        "agosto": {
+            "comienza": "jueves 1",
+            "termina": "sábado 31"
+        },
+        "septiembre": {
+            "comienza": "domingo 1",
+            "termina": "lunes 30"
+        },
+        "octubre": {
+            "comienza": "martes 1",
+            "termina": "jueves 31"
+        },
+        "noviembre": {
+            "comienza": "viernes 1",
+            "termina": "sábado 30"
+        },
+        "diciembre": {
+            "comienza": "domingo 1",
+            "termina": "martes 31"
+        }
+    }
+}
