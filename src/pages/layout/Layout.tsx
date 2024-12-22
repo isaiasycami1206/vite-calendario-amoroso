@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import { Outlet } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 const Layout: React.FC = () => {
     const [viewMode, setViewMode] = useState<'1' | '2' | '3' | '4'>('3'); // Controla la cantidad de meses visibles
@@ -11,6 +11,7 @@ const Layout: React.FC = () => {
     const [darkMode, setDarkMode] = useState(false);
     const [isTodayAndPast, setIsTodayAndPast] = useState(true);
     const [screenType, setScreenType] = useState("");
+    const [currentView, setCurrentView] = useState<'home' | 'general'>('home'); // Nuevo estado
 
     return (
         <div>
@@ -26,12 +27,12 @@ const Layout: React.FC = () => {
                 setScreenType={setScreenType}
                 setIsTodayAndPast={setIsTodayAndPast}
                 isTodayAndPast={isTodayAndPast}
+                currentView={currentView}
+                setCurrentView={setCurrentView}
             />
             <Row className="g-0 mt-5" style={{ minHeight: '89vh' }}>
                 <Col>
-                    <Container fluid className="p-4">
-                        <Outlet context={{ viewMode, rowView, distribucion, darkMode, screenType, isTodayAndPast}} />
-                    </Container>
+                    <Outlet context={{ viewMode, rowView, distribucion, darkMode, screenType, isTodayAndPast }} />
                 </Col>
             </Row>
         </div>

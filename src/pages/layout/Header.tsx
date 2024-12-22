@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
 import mapacheLogo from '../../assets/img/mapache.png';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 interface HeaderProps {
     setViewMode: (mode: '1' | '2' | '3') => void;
@@ -17,6 +18,8 @@ interface HeaderProps {
     setScreenType: (type: string) => void;
     isTodayAndPast: boolean;
     setIsTodayAndPast: (mode: boolean) => void;
+    currentView: 'home' | 'general'; // Nuevo prop para identificar la vista actual
+    setCurrentView: (view: 'home' | 'general') => void;
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -30,10 +33,14 @@ const Header: React.FC<HeaderProps> = ({
     screenType,
     setScreenType,
     isTodayAndPast,
-    setIsTodayAndPast
+    setIsTodayAndPast,
+    currentView,
+    setCurrentView
 }) => {
     const [showSidebar, setShowSidebar] = useState(false);
     const [isRowView, setIsRowView] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     const toggleSidebar = () => setShowSidebar(!showSidebar);
 
@@ -66,6 +73,17 @@ const Header: React.FC<HeaderProps> = ({
         };
     }, [viewMode, setScreenType, setViewMode]);
 
+    useEffect(() => {
+        // Detectar la vista actual según la URL
+        if (location.pathname === '/home') {
+            setCurrentView('home');
+        } else if (location.pathname === '/calendarGeneral') {
+            setCurrentView('general');
+        } else {
+            setCurrentView('home');
+        }
+    }, [location.pathname]); // Se ejecutará cada vez que cambie la URL
+
     const toggleDarkMode = () => setDarkMode(!darkMode);
 
     const toggleRowView = () => {
@@ -85,19 +103,28 @@ const Header: React.FC<HeaderProps> = ({
         window.location.reload();
     };
 
+    const handleNavigation = () => {
+        if (currentView === 'home') {
+            setCurrentView('general');
+            navigate('/calendarGeneral');
+        } else {
+            setCurrentView('home');
+            navigate('/home');
+        }
+    };
+
     return (
         <>
             <Navbar className="bg-custom-dark fixed-top" expand="lg">
                 <Container fluid>
 
-                <Navbar>
-
-                    <Navbar.Brand href="/vite-calendario-amoroso/">
-                        <img src={mapacheLogo} alt="logo-minera" width={30}/>
-                    </Navbar.Brand>
-                    <Navbar.Brand href="/vite-calendario-amoroso/" style={{ color: "#fff" }}>
-                        Calendario Amoroso
-                    </Navbar.Brand>
+                    <Navbar>
+                        <Navbar.Brand href="/vite-calendario-amoroso/">
+                            <img src={mapacheLogo} alt="logo-minera" width={30} />
+                        </Navbar.Brand>
+                        <Navbar.Brand href="/vite-calendario-amoroso/" style={{ color: "#fff" }}>
+                            Calendario Amoroso
+                        </Navbar.Brand>
                     </Navbar>
 
                     {/* Botón Sidebar para pantallas pequeñas */}
@@ -108,42 +135,54 @@ const Header: React.FC<HeaderProps> = ({
                     </div>
 
                     {/* Menú Principal */}
-                    <div className="d-none d-md-flex">
+                    <div className="d-flex w-100 justify-content-between">
 
-                        <Button variant="outline-light" onClick={()=> setIsTodayAndPast(!isTodayAndPast)} className="me-2">
-                            {isTodayAndPast ? 'Desmarcar Hoy y Pasados' : 'Marcar Hoy y Pasados'}
-                        </Button>
 
-                        <DropdownButton
-                            variant="outline-light"
-                            title="Mostrar Meses"
-                            className="me-2"
-                            onSelect={(eventKey) => setViewMode(eventKey as '1' | '2' | '3')}
-                        >
-                            <Dropdown.Item eventKey="1">1 Mes</Dropdown.Item>
-                            {(screenType === 'tablet' || screenType === 'laptop' || screenType === 'television') && (
-                                <Dropdown.Item eventKey="2">2 Meses</Dropdown.Item>
-                            )}
-                            {screenType === 'laptop' || screenType === 'television' ? (
-                                distribucion && <Dropdown.Item eventKey="3">3 Meses</Dropdown.Item>
-                            ) : null}
-                        </DropdownButton>
+                        <div className=" d-none d-md-flex w-100 justify-content-end ">
+                            <Button
+                                variant="outline-light"
+                                onClick={handleNavigation}
+                                className="me-2"
+                            >
+                                {currentView === 'home' ? 'Ir a General' : 'Ir a Calendario'}
+                            </Button>
 
-                        <Button variant="outline-light" onClick={toggleRowView} className="me-2">
-                            {isRowView ? 'Vista en Cascada' : 'Vista en Filas'}
-                        </Button>
+                            <Button variant="outline-light" onClick={() => setIsTodayAndPast(!isTodayAndPast)} className="me-2">
+                                {isTodayAndPast ? 'Desmarcar Hoy y Pasados' : 'Marcar Hoy y Pasados'}
+                            </Button>
 
-                        <Button variant="outline-light" onClick={handleDistribucionChange} className="me-2">
-                            Cambiar Distribución ({distribucion ? 'True' : 'False'})
-                        </Button>
+                            <DropdownButton
+                                variant="outline-light"
+                                title="Mostrar Meses"
+                                className="me-2"
+                                onSelect={(eventKey) => setViewMode(eventKey as '1' | '2' | '3')}
+                            >
+                                <Dropdown.Item eventKey="1">1 Mes</Dropdown.Item>
+                                {(screenType === 'tablet' || screenType === 'laptop' || screenType === 'television') && (
+                                    <Dropdown.Item eventKey="2">2 Meses</Dropdown.Item>
+                                )}
+                                {screenType === 'laptop' || screenType === 'television' ? (
+                                    distribucion && <Dropdown.Item eventKey="3">3 Meses</Dropdown.Item>
+                                ) : null}
+                            </DropdownButton>
 
-                        <Button variant="outline-light" onClick={reloadPage} className="me-2">
-                            Recargar Página
-                        </Button>
+                            <Button variant="outline-light" onClick={toggleRowView} className="me-2">
+                                {isRowView ? 'Vista en Cascada' : 'Vista en Filas'}
+                            </Button>
 
-                        <Button variant="outline-light" onClick={toggleDarkMode} className="me-2">
-                            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
-                        </Button>
+                            <Button variant="outline-light" onClick={handleDistribucionChange} className="me-2">
+                                Cambiar Distribución ({distribucion ? 'True' : 'False'})
+                            </Button>
+
+                            <Button variant="outline-light" onClick={reloadPage} className="me-2">
+                                Recargar Página
+                            </Button>
+
+                            <Button variant="outline-light" onClick={toggleDarkMode} className="me-2">
+                                <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
+                            </Button>
+
+                        </div>
                     </div>
                 </Container>
             </Navbar>
@@ -173,6 +212,14 @@ const Header: React.FC<HeaderProps> = ({
                         ) : null}
                     </DropdownButton>
 
+                    <Button
+                        variant="outline-secondary"
+                        onClick={handleNavigation}
+                        className="w-100 mb-3"
+                    >
+                        {currentView === 'home' ? 'Ir a General' : 'Ir a Calendario'}
+                    </Button>
+
                     <Button variant="outline-secondary" onClick={toggleRowView} className="w-100 mb-3">
                         {isRowView ? 'Vista en Cascada' : 'Vista en Filas'}
                     </Button>
@@ -181,7 +228,7 @@ const Header: React.FC<HeaderProps> = ({
                         Cambiar Distribución ({distribucion ? 'True' : 'False'})
                     </Button>
 
-                    <Button variant="outline-secondary" onClick={()=> setIsTodayAndPast(!isTodayAndPast)} className="w-100 mb-3">
+                    <Button variant="outline-secondary" onClick={() => setIsTodayAndPast(!isTodayAndPast)} className="w-100 mb-3">
                         {isTodayAndPast ? 'Desmarcar Hoy y Pasados' : 'Marcar Hoy y Pasados'}
                     </Button>
 

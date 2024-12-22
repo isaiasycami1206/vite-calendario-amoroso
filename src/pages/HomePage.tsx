@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Row, Col, Button } from 'react-bootstrap';
+import { Card, Row, Col, Button, Container } from 'react-bootstrap';
 import { useOutletContext } from 'react-router-dom';
 import { obtenerDatosAleatorios } from '../api/api';
 import Calendario from '../components/Calendario';
@@ -136,56 +136,22 @@ const HomePage: React.FC = () => {
     const datosCalendario = calendariosPorAnio[anioActual] || [];
 
     return (
-        <Card className={"pt-4 pb-4 shadow border-0 mt-3"}>
-            <Card.Body>
-                {renderBotonesNavegacion()}
+        <Container fluid className='p-4'>
 
-                <Row>
-                    {rowView && datosCalendario.map((data, index) => (
-                        <Col key={index} xs={12 / parseInt(viewMode, 10)}>
-                            <Calendario
-                                diaEspecial={12}
-                                mesAniversario={6}
-                                mesEspecial={meses[index]}
-                                diaActual={new Date().getDate()}
-                                mesMostrar={index}
-                                anioMostrar={anioActual}
-                                imagen={data.imagen}
-                                mensaje={data.mensaje}
-                                distribucion={distribucion}
-                                darkMode={darkMode}
-                                viewMode={viewMode}
-                                screenType={screenType}
-                                isTodayAndPast={isTodayAndPast}
-                            />
-                        </Col>
-                    ))}
+            <Card className={"pt-4 pb-4 shadow border-0 mt-3"}>
+                <Card.Body>
+                    {renderBotonesNavegacion()}
 
-                    {!rowView && obtenerFilaActual().map((indice, pos) => {
-                        let data = calendariosPorAnio[anioActual]?.[indice];
-                        let anioMostrar = anioActual;
-
-                        if (parseInt(viewMode) !== 1) {
-                            if (pos === 2 && indice === 0) {
-                                anioMostrar = anioActual + 1;
-                                data = calendariosPorAnio[anioMostrar]?.[0];
-                            } else if (pos === 0 && indice === 11) {
-                                anioMostrar = anioActual - 1;
-                                data = calendariosPorAnio[anioMostrar]?.[11];
-                            }
-                        }
-
-                        if (!data || !data.imagen || !data.mensaje) return null;
-
-                        return (
-                            <Col key={`${anioMostrar}-${indice}`} xs={12 / parseInt(viewMode, 10)}>
+                    <Row>
+                        {rowView && datosCalendario.map((data, index) => (
+                            <Col key={index} xs={12 / parseInt(viewMode, 10)}>
                                 <Calendario
                                     diaEspecial={12}
                                     mesAniversario={6}
-                                    mesEspecial={meses[indice]}
+                                    mesEspecial={meses[index]}
                                     diaActual={new Date().getDate()}
-                                    mesMostrar={indice}
-                                    anioMostrar={anioMostrar}
+                                    mesMostrar={index}
+                                    anioMostrar={anioActual}
                                     imagen={data.imagen}
                                     mensaje={data.mensaje}
                                     distribucion={distribucion}
@@ -195,15 +161,53 @@ const HomePage: React.FC = () => {
                                     isTodayAndPast={isTodayAndPast}
                                 />
                             </Col>
-                        );
-                    })}
-                </Row>
+                        ))}
 
-                {
-                    rowView && renderBotonesNavegacion()
-                }
-            </Card.Body>
-        </Card>
+                        {!rowView && obtenerFilaActual().map((indice, pos) => {
+                            let data = calendariosPorAnio[anioActual]?.[indice];
+                            let anioMostrar = anioActual;
+
+                            if (parseInt(viewMode) !== 1) {
+                                if (pos === 2 && indice === 0) {
+                                    anioMostrar = anioActual + 1;
+                                    data = calendariosPorAnio[anioMostrar]?.[0];
+                                } else if (pos === 0 && indice === 11) {
+                                    anioMostrar = anioActual - 1;
+                                    data = calendariosPorAnio[anioMostrar]?.[11];
+                                }
+                            }
+
+                            if (!data || !data.imagen || !data.mensaje) return null;
+
+                            return (
+                                <Col key={`${anioMostrar}-${indice}`} xs={12 / parseInt(viewMode, 10)}>
+                                    <Calendario
+                                        diaEspecial={12}
+                                        mesAniversario={6}
+                                        mesEspecial={meses[indice]}
+                                        diaActual={new Date().getDate()}
+                                        mesMostrar={indice}
+                                        anioMostrar={anioMostrar}
+                                        imagen={data.imagen}
+                                        mensaje={data.mensaje}
+                                        distribucion={distribucion}
+                                        darkMode={darkMode}
+                                        viewMode={viewMode}
+                                        screenType={screenType}
+                                        isTodayAndPast={isTodayAndPast}
+                                    />
+                                </Col>
+                            );
+                        })}
+                    </Row>
+
+                    {
+                        rowView && renderBotonesNavegacion()
+                    }
+                </Card.Body>
+            </Card>
+        </Container>
+
     );
 };
 

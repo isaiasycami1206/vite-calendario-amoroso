@@ -4,6 +4,7 @@ import NotFoundPage from '../components/NotFoundPage'
 import Layout from '../pages/layout/Layout.tsx'
 
 import HomePage from '../pages/HomePage';
+import CalendarioGeneralPage from '../pages/CalendarioGeneralPage.tsx';
 
 const router = createBrowserRouter(
     [
@@ -19,6 +20,10 @@ const router = createBrowserRouter(
                 {
                     path: "/home",
                     element: <HomePage />,
+                },
+                {
+                    path: "/calendarGeneral",
+                    element: <CalendarioGeneralPage />,
                 },
             ],
         },
