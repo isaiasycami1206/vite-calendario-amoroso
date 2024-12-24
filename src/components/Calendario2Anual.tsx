@@ -8,12 +8,10 @@ interface CalendarioProps {
     diaEspecial: number;
     mesAniversario: number;
     mesEspecial: string;
-    diaActual: number;
     mesMostrar: number;
     anioMostrar: number;
     distribucion: boolean;
     darkMode: boolean;
-    isTodayAndPast: boolean;
     viewMode: string;
     screenType: string;
     imagen: {
@@ -31,47 +29,35 @@ interface CalendarioProps {
     };
 }
 
-interface Imagen {
-    id: number;
-    tituloImagen: string;
-    ruta: string;
-    direction: string;
-    style: string;
-}
-
 const Calendario2Anual: React.FC<CalendarioProps> = ({
     diaEspecial,
     mesAniversario,
     mesEspecial,
-    diaActual,
     mesMostrar,
     anioMostrar,
     distribucion,
-    imagen,
-    mensaje,
     darkMode,
     viewMode,
     screenType,
-    isTodayAndPast,
 }) => {
     const [tooltip, setTooltip] = useState<string | null>(null);
-    const [isMobile, setIsMobile] = useState(false);
+    // const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
 
-        switch (screenType) {
-            case 'mobile':
-                setIsMobile(true)
-                break;
+        // switch (screenType) {
+        //     case 'mobile':
+        //         setIsMobile(true)
+        //         break;
 
-            case 'tablet':
-                setIsMobile(true)
-                break;
+        //     case 'tablet':
+        //         setIsMobile(true)
+        //         break;
 
-            default:
-                setIsMobile(false)
+        //     default:
+        //         setIsMobile(false)
 
-        }
+        // }
     }, [screenType])
 
     // Genera un calendario de días para un mes y un año
@@ -99,24 +85,6 @@ const Calendario2Anual: React.FC<CalendarioProps> = ({
         return calendario;
     };
 
-    // Función para determinar si la fecha mostrada es anterior
-    const esFechaAnterior = (mes: number, anio: number) => {
-        const mesActual = new Date().getMonth(); // El mes actual (0 = Enero, ..., 11 = Diciembre)
-        const anioActual = new Date().getFullYear(); // El año actual
-
-        // Comparación si el año es menor o si el mes es menor en el mismo año
-        return anio < anioActual || (anio === anioActual && mes < mesActual);
-    };
-
-    const esFechaPosterior = (mes: number, anio: number) => {
-        const mesActual = new Date().getMonth(); // El mes actual (0 = Enero, ..., 11 = Diciembre)
-        const anioActual = new Date().getFullYear(); // El año actual
-
-        // Comparación si el año es mayor o si el mes es mayor en el mismo año
-        return anio > anioActual || (anio === anioActual && mes > mesActual);
-    };
-
-    const esMesPosterior = esFechaPosterior(mesMostrar, anioMostrar);
     const calendario = generarCalendario(mesMostrar, anioMostrar);
 
     const getDayClassAndIcon = (
@@ -124,20 +92,6 @@ const Calendario2Anual: React.FC<CalendarioProps> = ({
     ) => {
         const clases = ["calendar-day", "text-center", "flex-grow-1"];
         let icono = null;
-
-        if (isTodayAndPast) {
-            // Día pasado
-            if ((dia && dia < diaActual) || esFechaAnterior(mesMostrar, anioMostrar)) {
-                if (!esMesPosterior) {
-                    clases.push(darkMode ? "dark-calendar-past" : "past");
-                }
-            }
-
-            // Día actual
-            if (dia === diaActual && !esFechaAnterior(mesMostrar, anioMostrar) && !esMesPosterior) {
-                clases.push("today");
-            }
-        }
 
         // Día especial
         if (dia === diaEspecial) {
